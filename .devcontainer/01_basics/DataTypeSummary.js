@@ -78,3 +78,32 @@ console.log("Type of Object", typeof myOBj);            // object
 console.log("Type of Function", typeof myfunction);     // function Object
 */
 
+
+
+//************************************* 
+
+//Stack(Primitive), Heap (Non Primitive)
+
+let myGmail="aaddiii@gmai.com"
+
+let anotherGamil= myGmail;
+anotherGamil="chaudhary@gmailcom"
+
+console.log(myGmail)
+console.log(anotherGamil)
+
+
+//Heap
+let unserOne={
+    email: "abcd.com",
+    upi: "abcd@ybl"
+}
+ 
+let userTwo =unserOne
+userTwo.email="xyz.com"
+
+console.log(unserOne.email)
+console.log(userTwo.email)
+
+
+
