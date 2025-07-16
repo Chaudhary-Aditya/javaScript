@@ -9,7 +9,7 @@ let state; // undefined
 
 //number=> 2 to power 53
 //bigInt used for big number example trading
-//string=>"
+//string=>""
 //boolean => true/false
 // null=> standalone value
 // undefined
